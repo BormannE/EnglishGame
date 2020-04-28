@@ -1,0 +1,23 @@
+.btn {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn-navbar {
+    display: none;
+    float: right;
+    padding: 12px 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.icon-bar {
+    display: block;
+    width: 18px;
+    height: 3px;
+    background-color: #CECECE;
+}
+
+.icon-bar + .icon-bar { /* Le + permet de sélectionner les éléments qui suivent */
+    margin-top: 3px;
+}
