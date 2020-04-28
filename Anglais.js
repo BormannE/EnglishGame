@@ -9,74 +9,8 @@ var num_ques;
 var duo = false;
 /*var tab_test_question = ["Quel est le nom de Cesar ?","Comment va la mama ?","Ou se trouve le drapeau","Ou est le trésor ?"];
 var tab_test_reponse = [["reponse1","reponse2","reponse3","reponse4"],[22,23,24,25],[31,32,33,34],[41,42,43,44]];*/
-var tab1_question = [
-    "https://cdn.pixabay.com/photo/2017/01/06/17/18/caramel-1958358_1280.jpg",
-    "https://cdn.pixabay.com/photo/2016/11/29/05/32/animal-1867562__480.jpg",
-    "https://cdn.pixabay.com/photo/2012/12/17/19/14/keyboard-70506__480.jpg",
-    "https://cdn.pixabay.com/photo/2018/05/16/20/18/motherboard-3406930__480.jpg",
-    "https://cdn.pixabay.com/photo/2020/04/11/08/06/usb-5029286__480.jpg",
-    "https://cdn.pixabay.com/photo/2016/02/14/20/28/open-hard-drive-1200164__480.jpg",
-    "https://cdn.pixabay.com/photo/2014/12/11/22/07/cpu-564771__480.jpg",
-    "https://cdn.pixabay.com/photo/2016/04/08/12/15/the-gpu-1316015__480.png",
-    "https://cdn.pixabay.com/photo/2015/11/25/18/49/breakfast-1062749__480.jpg",
-    "https://cdn.pixabay.com/photo/2017/07/09/20/48/icon-2488093__480.png",
-    "https://cdn.pixabay.com/photo/2020/04/23/19/36/lily-of-the-valley-5083800__480.jpg",
-    "https://cdn.pixabay.com/photo/2020/04/18/18/50/flowers-5060553__480.jpg",
-    "https://cdn.pixabay.com/photo/2020/04/22/13/57/squirrel-5078283__480.jpg",
-    "https://cdn.pixabay.com/photo/2012/06/19/18/09/elk-50296__480.jpg",
-    "https://cdn.pixabay.com/photo/2020/04/19/02/43/woodpecker-5061636_1280.jpg",
-    "https://cdn.pixabay.com/photo/2020/04/24/20/40/stork-5088633__480.jpg",
-    "https://cdn.pixabay.com/photo/2020/04/07/17/01/chicks-5014152__480.jpg",
-    "https://cdn.pixabay.com/photo/2015/09/16/01/38/christ-942048__480.jpg",
-    "https://cdn.pixabay.com/photo/2019/09/17/21/15/waterfalls-4484581__480.jpg",
-    "https://cdn.pixabay.com/photo/2014/11/13/23/34/london-530055__480.jpg",
-    "https://cdn.pixabay.com/photo/2018/01/21/01/46/architecture-3095716__480.jpg",
-    "https://cdn.pixabay.com/photo/2014/09/11/18/23/london-441853__480.jpg",
-    "https://cdn.pixabay.com/photo/2013/10/29/08/34/queen-of-liberty-202218__480.jpg",
-    "https://cdn.pixabay.com/photo/2014/07/10/10/20/golden-gate-bridge-388917__480.jpg",
-    "https://cdn.pixabay.com/photo/2014/06/06/09/36/sydney-363244__480.jpg",
-    "https://cdn.pixabay.com/photo/2014/11/20/20/45/giants-causeway-539862_1280.jpg",
-    "https://cdn.pixabay.com/photo/2015/12/08/00/40/empire-state-building-1081929__480.jpg",
-    "https://cdn.pixabay.com/photo/2016/09/08/23/08/florence-1655830__480.jpg",
-    "https://cdn.pixabay.com/photo/2015/11/09/18/52/venice-1035684__480.jpg",
-    "https://cdn.pixabay.com/photo/2019/07/10/08/49/manarola-4328226_1280.jpg",
-    "https://cdn.pixabay.com/photo/2014/08/26/14/11/panorama-427997__480.jpg",
-    "https://cdn.pixabay.com/photo/2020/03/18/21/47/ireland-4945565__480.jpg"
-];
-var tab1_reponse = [
-    ["pudding","cake","cookie","cheese"],
-    ["rooster","nuggets","chicken","bird"],
-    ["keyboard","board","mouse","smartphone"],
-    ["motherboard","GPU","smart card","video card"],
-    ["USB drive card","USB key","hard drive","CD"],
-    ["hard drive","USB key","USB drive card","CD"],
-    ["CPU","GPU","smart card","video card"],
-    ["GPU","CPU","smart card","video card"],
-    ["scones","cake","cookie","bread"],
-    ["files","location","computer","screen"],
-    ["Lily of the valley","","",""],
-    ["pansy","","",""],
-    ["squirrel","","",""],
-    ["elk","","",""],
-    ["Woodpecker","","",""],
-    ["stork","","",""],
-    ["chicks","","",""],
-    ["Corcovado","","",""],
-    ["Niagara Falls","","",""],
-    ["Westminster Parliament","","",""],
-    ["Neuschwanstein Castle","","",""],
-    ["Tower Bridge","","",""],
-    ["Statue of Liberty","","",""],
-    ["Golden Gate Bridge","","",""],
-    ["Sydney Opera House","","",""],
-    ["Giant's Causeway","","",""],
-    ["Empire State Building","Trump Building","Krysler Building",""],
-    ["Florence","","",""],
-    ["Venice","","",""],
-    ["Cinqueterre","","",""],
-    ["Barcelona","","",""],
-    ["Dublin","","",""]
-];
+var tab1_question = ["https://cdn.pixabay.com/photo/2017/01/06/17/18/caramel-1958358_1280.jpg","https://cdn.pixabay.com/photo/2016/11/29/05/32/animal-1867562__480.jpg","https://cdn.pixabay.com/photo/2012/12/17/19/14/keyboard-70506__480.jpg","https://cdn.pixabay.com/photo/2018/05/16/20/18/motherboard-3406930__480.jpg","https://cdn.pixabay.com/photo/2020/04/11/08/06/usb-5029286__480.jpg","https://cdn.pixabay.com/photo/2016/02/14/20/28/open-hard-drive-1200164__480.jpg","https://cdn.pixabay.com/photo/2014/12/11/22/07/cpu-564771__480.jpg","https://cdn.pixabay.com/photo/2016/04/08/12/15/the-gpu-1316015__480.png","https://cdn.pixabay.com/photo/2015/11/25/18/49/breakfast-1062749__480.jpg","https://cdn.pixabay.com/photo/2017/07/09/20/48/icon-2488093__480.png","https://cdn.pixabay.com/photo/2020/04/23/19/36/lily-of-the-valley-5083800__480.jpg","https://cdn.pixabay.com/photo/2020/04/18/18/50/flowers-5060553__480.jpg","https://cdn.pixabay.com/photo/2020/04/22/13/57/squirrel-5078283__480.jpg","https://cdn.pixabay.com/photo/2012/06/19/18/09/elk-50296__480.jpg","https://cdn.pixabay.com/photo/2020/04/19/02/43/woodpecker-5061636_1280.jpg","https://cdn.pixabay.com/photo/2020/04/24/20/40/stork-5088633__480.jpg","https://cdn.pixabay.com/photo/2020/04/07/17/01/chicks-5014152__480.jpg","https://cdn.pixabay.com/photo/2015/09/16/01/38/christ-942048__480.jpg","https://cdn.pixabay.com/photo/2019/09/17/21/15/waterfalls-4484581__480.jpg","https://cdn.pixabay.com/photo/2014/11/13/23/34/london-530055__480.jpg","https://cdn.pixabay.com/photo/2018/01/21/01/46/architecture-3095716__480.jpg","https://cdn.pixabay.com/photo/2014/09/11/18/23/london-441853__480.jpg","https://cdn.pixabay.com/photo/2013/10/29/08/34/queen-of-liberty-202218__480.jpg","https://cdn.pixabay.com/photo/2014/07/10/10/20/golden-gate-bridge-388917__480.jpg","https://cdn.pixabay.com/photo/2014/06/06/09/36/sydney-363244__480.jpg","https://cdn.pixabay.com/photo/2014/11/20/20/45/giants-causeway-539862_1280.jpg","https://cdn.pixabay.com/photo/2015/12/08/00/40/empire-state-building-1081929__480.jpg","https://cdn.pixabay.com/photo/2016/09/08/23/08/florence-1655830__480.jpg","https://cdn.pixabay.com/photo/2015/11/09/18/52/venice-1035684__480.jpg","https://cdn.pixabay.com/photo/2019/07/10/08/49/manarola-4328226_1280.jpg","https://cdn.pixabay.com/photo/2014/08/26/14/11/panorama-427997__480.jpg","https://cdn.pixabay.com/photo/2020/03/18/21/47/ireland-4945565__480.jpg","https://cdn.pixabay.com/photo/2018/08/03/19/43/buckingham-3582652__480.jpg","https://cdn.pixabay.com/photo/2014/11/17/17/02/windsor-castle-534860__480.jpg","https://cdn.pixabay.com/photo/2016/03/01/07/24/popular-1229835__480.jpg","https://cdn.pixabay.com/photo/2018/02/07/17/07/architecture-3137494__480.jpg","https://cdn.pixabay.com/photo/2017/09/27/11/51/ponte-vecchio-2791816__480.jpg","https://cdn.pixabay.com/photo/2017/08/17/15/25/sydney-2651711__480.jpg","https://cdn.pixabay.com/photo/2013/03/01/17/54/new-york-city-87212__480.jpg","https://cdn.pixabay.com/photo/2016/12/03/17/46/new-york-1880274__480.jpg","https://cdn.pixabay.com/photo/2015/07/23/02/17/united-states-856355_1280.jpg","https://cdn.pixabay.com/photo/2014/08/30/07/39/melbourne-431447__480.jpg"];
+var tab1_reponse = [["pudding","cake","cookie","cheese"],["rooster","nuggets","chicken","bird"],["keyboard","board","mouse","smartphone"],["motherboard","GPU","smart card","video card"],["USB drive card","USB key","hard drive","CD"],["hard drive","USB key","USB drive card","CD"],["CPU","GPU","smart card","video card"],["GPU","CPU","smart card","video card"],["scones","cake","cookie","bread"],["files","location","computer","screen"],["Lily of the valley","Muguet","Mug","bell"],["pansy","daisy","Bellis perennis","dandelion"],["squirrel","fox","otter","goundhog"],["elk","wild boar","burrow","hind"],["woodpecker","kingfisher","crow","magpie"],["stork","parrot","crane","budgerigar"],["chicks","chicken","hen","rooster"],["Corcovado","Stutue of Liberty","Little Mermaid","Moai"],["Niagara Falls","Sutherland Falls","Victoria Falls","Angel Falls"],["Westminster Parliament","Westminster Abbaye","Windsor Castle","Buckingham Palace"],["Neuschwanstein Castle","Versaille Castle","Windsor Castle","Dover Castle"],["Tower Bridge","Brooklyn Bridge","Sydney Harbour Bridge","Ponte Vecchio"],["Statue of Liberty","Little Mermaid","Moai","Corcovado"],["Golden Gate Bridge","Ponte Vecchio","Sydney Harbour Bridge","Brooklyn Bridge"],["Sydney Opera House","120 Collins Street","Q1","Royal Exhibition Building"],["Giant's Causeway","Santa Monica Beach","Bondi Beach","Deauville Beach"],["Empire State Building","Trump Tower","Chrysler  Building","Flatiron Building"],["Florence","Roma","Venice","Nice"],["Venice","Roma","Florence","Nice"],["Cinqueterre","Positano","Auckland","Sydney"],["Barcelona","Sydney","New York","Los Angeles"],["Dublin","Belfast","Galway","Cardiff"],["Buckingham Palace","Westminster Parliament","Westminster Abbaye","Windsor Castle"],["Windsor Castle","Buckingham Palace","Westminster Parliament","Westminster Abbaye"],["Little Mermaid","Corcovado","Stutue of Liberty","Moai"],["Brooklyn Bridge","Golden Gate Bridge","Ponte Vecchio","Sydney Harbour Bridge"],["Ponte Vecchio","Brooklyn Bridge","Golden Gate Bridge","Sydney Harbour Bridge"],["Sydney Harbour Bridge","Brooklyn Bridge","Golden Gate Bridge","Ponte Vecchio"],["Trump Tower","Empire State Building","Chrysler  Building","Flatiron Building"],["Chrysler  Building","Empire State Building","Trump Tower","Flatiron Building"],["Flatiron Building","Empire State Building","Trump Tower","Chrysler  Building"],["Royal Exhibition Building","Sydney Opera House","120 Collins Street","Q1"]];
 var tab1_proposition = ["What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","What is this ?","Which city is it ?","Which city is it ?","Which place is it ?","Which city is it ?","Which city is it ?"]
 var tab2_question = ["Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?","Which word is spelled correctly?"];
 var tab2_reponse = [["Cumbersome","Cambersome","Cumbersomme","Cunbersome"],["Effortful","Efortful","Efortfull","Effortfull"],["Exhausting","Exausting","Ehausting","Eausting"],["Gruling","Grulling","Grauling","Graulling"],["Heavy","Havy","Heavi","Havi"],["Knotty","Knoty","Noty","Notty"],["Onerous","Onirous","Honirous","Honerous"],["Rough","Rougth","Raugh","Raugth"],["Strenuous","Streneous","Strineous","Strinuous"],["Thorny","Torny","Torni","Thorni"],["Exaggerate","Exagerate","Exagarate","Exaggarate"],["Embarrass","Embarrasse","Embarasse","Embarass"],["Conscience","Coscience","Cocience","Concience"],["Column","Columne","Collumn","Collumne"],["Business","Buisness","Busines","Buisnes"],["Appearance","Apparance","Apearance","Aparance"],["Foreign","Foregn","Foraign","Foragn"],["Guarantee","Garanty","Garantee","Garaty"],["Height","Heigth","Heighth","Heigh"],["Knowledge","Nowledge","Knowlege","Nowlege"],["Neighbor","Neigbor","Neigbhor","Neibohr"],["Occurred","Ocurred","Ocured","Occured"],["Opponent","Oponent","Opponant","Oponant"],["Pleasant","Pleassant","Pleasante","Pleassante"],["Rhythm","Ryhtm","Rithm","Rihtm"],["Cymotrichous","Cimotricous","Cimotrichous","Cymotricous"],["Autochthonous","Autocthonous","Autoctonous","Autochtonous"],["Elucubrate","Elucubraite","Elucubrat","Elucubrait"],["Eagle","Aegle","Eaglle","Aeglle"],["Autumn","Authumn","Otumn","Othumn"],["Character","Caracter","Caracther","Characther"],["Enough","Enougth","Enaugh","Enaugth"],["Island","Iland","Ilande","Irland"],["Jealous","Jalous","Jealouse","Jalouse"],["Parallel","Parralel","Paralel","Parrallel"],["Tongue","Thonge","Thongue","Tonge"],["Weight","Wight","Wigth","Weigth"],["Length","Lenght","Langth","Langht"],["Disappear","Dissapear","Dissapaer","Dissapear"],["Appearance","Apearance","Appearence","Apearance"],["Caribbean","Carribean","Carribean","Caribbean"],["Cemetery","Cimetery","Cimitery","Cemitery"],["Colleague","Coleague","Colleage","Coleage"],["Environment","Enviroment","Environement","Enviromment"],["Foreseeable","Foreseable","Forseeable","Forseable"],["Jewelry","Jewelery","Jewlery","Jewlry"],["Judgment","Jugement","Judgement","Jugment"],["License","Lisence","Lisense","Licence"],["Lollipop","Lolipop","Lollippop","Lolippop"],["Mischievous","Michievous","Mischivous","Michivous"],["Neanderthal","Neandertal","Neeandertal","Neeandertal"],["Noticeable","Noticable","Notticeable","Notticable"],["Weird","Wird","Vird","Veird"],["Vacuum","Vaccum","Vacum","Vaccuum"],["Threshold","Thereshold","Therehold","Thrhold"],["Unforeseen","Unforseen","Unforsen","Unforesen"],["Receipt","Recept","Reccept","Recceipt"],["Schedule","Scedule","Schudele","Scudele"],["Successful","Sucessfull","Successfull","Sucessful"]];
