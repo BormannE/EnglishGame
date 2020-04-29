@@ -41,8 +41,7 @@ var tab1_question = [
     "https://cdn.pixabay.com/photo/2015/11/09/18/52/venice-1035684__480.jpg",
     "https://cdn.pixabay.com/photo/2019/07/10/08/49/manarola-4328226_1280.jpg",
     "https://cdn.pixabay.com/photo/2014/08/26/14/11/panorama-427997__480.jpg",
-    "https://cdn.pixabay.com/photo/2020/03/18/21/47/ireland-4945565__480.jpg"
-];
+    "https://cdn.pixabay.com/photo/2020/03/18/21/47/ireland-4945565__480.jpg"];
 var tab1_reponse = [
     ["pudding","cake","cookie","cheese"],
     ["rooster","nuggets","chicken","bird"],
@@ -85,7 +84,7 @@ var tab3_reponse = [["George Orwell","Charles Dickens","Shakespeare","Edgar Alla
 var tab4_question = ["What is the word trainers in American?","What is the word jumper or pullover in American?","What is the word waistcoat in American?","What is the word braces in American?","What is the word chips in American?","What is the word biscuit in American?","What is the word crisps in American?","What is the word peckish in American?","What is the word courgette in American?","What is the word aubergine in American?","What is the word jacket potato in American?","What is the word runner bean in American?","What is the word flat in American?","What is the word ground floor in American?","What is the word first floor in American?","What is the word underground in American?","What is the word chemist’s in American?","What is the word phone box in American?","What is the word queue in American?","What is the word bonnet in American?","What is the word boot in American?","What is the word windscreen in American?","What is the word takeaway in American?","What is the word timetable in American?","What is the word rubber in American?","What is the word post in American?","What is the word the Plough in American?","What is the word holiday in American?","What is the word autumn in American?","What is the word high street in American?","What is the word lorry in American?","What is the word estate car in American?","What is the word lift in American?","What is the word nappy in American?","What is the word dummy in American?","What is the word loo in American?","What is the word telly in American?","What is the word sweet in American?","What is the word candy floss in American?","What is the word ice lolly in American?","What is the word treacle in American?","What is the word torch in American?","What is the word mobile phone in American?","What is the word rubbish in American?","What is the word bin in American?","What is the word football in American?","What is the word pitch in American?","What is the word draw in American?","What is the word kit in American?","What is the word motorway in American?","What is the word pavement in American?","What is the word zebra crossing in American?","What is the word road surface in American?","What is the word full stop in American?","What is the word nought in American?","What is the word postal code in American?","What is the word diversion in American?","What is the word flyover in American?","What is the word car park in American?","What is the word petrol in American?","What is the word hare in American?","What is the word sneakers in English?","What is the word sweater in English?","What is the word vest in English?","What is the word suspenders in English?","What is the word French fries in English?","What is the word cookie in English?","What is the word potato chips in English?","What is the word hungry in English?","What is the word zucchini in English?","What is the word eggplant in English?","What is the word backed potato in English?","What is the word string bean in English?","What is the word apartment in English?","What is the word first floor in English?","What is the word second floor in English?","What is the word subway in English?","What is the word drugstore in English?","What is the word phone booth in English?","What is the word line in English?","What is the word hood in English?","What is the word trunk in English?","What is the word windshield in English?","What is the word takeout in English?","What is the word schedule in English?","What is the word eraser in English?","What is the word mail in English?","What is the word the big dipper in English?","What is the word vacation in English?","What is the word fall in English?","What is the word main Street in English?","What is the word truck in English?","What is the word station wagon in English?","What is the word elevator in English?","What is the word diaper in English?","What is the word pacifier in English?","What is the word restroom in English?","What is the word TV in English?","What is the word candy in English?","What is the word cotton candy in English?","What is the word popsicle in English?","What is the word molasses in English?","What is the word flashlight in English?","What is the word cell phone in English?","What is the word garbage in English?","What is the word trash can in English?","What is the word soccer in English?","What is the word field in English?","What is the word tie in English?","What is the word uniform in English?","What is the word highway in English?","What is the word sidewalk in English?","What is the word crosswalk in English?","What is the word pavement in English?","What is the word period in English?","What is the word zero in English?","What is the word zip code in English?","What is the word detour in English?","What is the word overpass in English?","What is the word parking lot in English?","What is the word gas in English?","What is the word jackrabbit in English?"]
 var tab4_reponse = [["sneakers","snack","trousers","pants"],["sweater","weather","cheek","wedding"],["vest","skirt","jumper","coat"],["suspenders","cell","sir","speech"],["French fries","mashed potatoes","potato chips","stew"],["cookie","pretzel","turkey","cookie"],["chips","roast chicken","toast","nuggets"],["hungry","suprious","giddy","guiltless"],["zucchini","brussels sprouts","eggplant","cucumber"],["eggplant","lettuce","beetroot","capsicum"],["backed potato","chips","french fries","beans"],["string bean","swede","spinach","pea"],["apartment","house","home","elevator"],["first floor","floor","first level","first step"],["second floor","floor one","first level","floor"],["subway","train","truck","ground"],["drugstore","surgery","pharmacy","medical practice"],["phone booth","phone board","phone table","phone store"],["line","circle","lake","area"],["hood","village","pants","cap"],["trunk","battery","muffler","wheel"],["windshield","wheel","trunk","rearview mirror"],["takeout","listen","take","hear"],["schedule","ordinary","timepast","usual"],["eraser","highlither","writer","ruler"],["mail","mud","meal","ad"],["The Big Dipper","The Main Constellation","The Great Dog","The Winged Horse"],["vacation","direction","etablishment","hull"],["fall","sail","boundary","flood"],["main Street","bass Street","secondary Street","bottom Street"],["truck","van","bus","boat"],["station wagon","train station","carshare parking","airport"],["elevator","barracks","moving staircase","stairs"],["diaper","knickers","pants","underpants"],["pacifier","cradle","stroller","pushchair"],["restroom","basin","bathroom","shower"],["TV","radio","CD player","home cinema"],["candy","pie","cookie","cake"],["cotton candy","manege","funfair","toffee apple"],["popsicle","ice","sorbet","granita"],["molasses","fruit sugar","carbohydrate","ethanol"],["flashlight","light","beacon","front beam"],["cell phone","tablet","charger","headphone"],["garbage","bin","dump","tip"],["trash can","waste","litter","junkyard"],["soccer","grass","ad","grocery"],["field","farming","land","grassland"],["tie","picture","bow tie","shirt"],["uniform","suit","style","rescue squad"],["highway","main road","highspeed road","diversion"],["sidewalk","terrain","place","courtyard"],["crosswalk","bandwidth","panel","sign"],["pavement","terrain","place","courtyard"],["period","give way","no entry","exclamation point"],["zero","empty","naked","a special number"],["zip code","city code","adress code","transit code"],["detour","highway","give way","stop"],["overpass","tunnel","airplane","bird"],["parking lot","station wagon","train station","carshare parking"],["gas","ethanol","chemistry","oil rig"],["jackrabbit","pig","hedge","hairs"],["trainers","snack","trousers","pants"],["jumper","weather","cheek","wedding"],["waistcoat","skirt","jumper","coat"],["braces","cell","sir","speech"],["chips","mashed potatoes","potato chips","stew"],["biscuit","pretzel","turkey","cookie"],["crisps","chicken","toast","nuggets"],["peckish","suprious","giddy","guiltless"],["courgette","cucumber","brussels sprouts","eggplant"],["aubergine","lettuce","beetroot","capsicum"],["jacket potato","chips","french fries","beans"],["runner bean","swede","spinach","pea"],["flat","house","home","elevator"],["ground floor","first level","first step"],["first floor","floor one","first level","floor"],["underground","train","truck","ground"],["chemist’s","surgery","pharmacy","medical practice"],["phone box","phone table","phone store"],["queue","circle","lake","area"],["bonnet","village","pants","cap"],["boot","battery","muffler","wheel"],["windscreen","wheel","trunk","rearview mirror"],["takeaway","listen","take","hear"],["timetable","ordinary","timepast","usual"],["rubber","highlither","writer","ruler"],["post","mud","meal","ad"],["the Plough","Dog","The Winged Horse"],["holiday","direction","etablishment","hull"],["autumn","sail","boundary","flood"],["high street","secondary Street","bottom Street"],["lorry","van","bus","boat"],["estate car","train station","carshare parking","airport"],["lift","barracks","moving staircase","stairs"],["nappy","knickers","pants","underpants"],["dummy","cradle","stroller","pushchair"],["loo","basin","bathroom","shower"],["telly","CD player","home cinema"],["sweet","pie","cookie","cake"],["candy floss","manege","funfair","toffee apple"],["ice lolly","ice","sorbet","granita"],["treacle","sugar","carbohydrate","ethanol"],["torch","light","beacon","front beam"],["mobile phone","tablet","charger","headphone"],["rubbish","bin","dump","tip"],["bin","waste","litter","junkyard"],["football","grass","ad","grocery"],["pitch","farming","land","grassland"],["draw","picture","bow tie","shirt"],["kit","suit","style","rescue squad"],["motorway","main road","highspeed road","diversion"],["pavement","terrain","place","courtyard"],["zebra crossing","bandwidth","panel","sign"],["road surface","terrain","place","courtyard"],["full stop","no entry","exclamation point"],["nought","naked","a special number","zero"],["postal code","adress code","transit code"],["diversion","highway","give way","stop"],["flyover","tunnel","airplane","bird"],["car park","train station","carshare parking"],["petrol","ethanol","chemistry","oil rig"],["hare","pig","hedge","hairs"]];
 var tab5_question = ["What mean the acronym VOD?","What mean the acronym ADSL?","What mean the acronym API?","What mean the acronym BSS?","What mean the acronym DRAM?","What mean the acronym HTTP?","What mean the acronym IMAP?","What mean the acronym CSS?","What mean the acronym LAN?","What mean the acronym PC?","What mean the acronym SSD?","What mean the acronym USB?","What mean the acronym VPN?","What mean the acronym WPA?","What mean the acronym WWW?","What mean the acronym URL?","What mean the acronym DOS?","What mean the acronym HTML?","What mean the acronym LED?","What mean the acronym VGA?","What mean the acronym HDMI?","What mean the acronym IBM?","What mean the acronym ROM?","What mean the acronym FLOPS?","What mean the acronym GPU?","What mean the acronym HD?","What mean the acronym SATA?","What mean the acronym UTF?","What mean the acronym CSV?","What mean the acronym AMD?","What mean the acronym ASCII?","What mean the acronym AVI?","What mean the acronym CD?","What mean the acronym GPS?","What mean the acronym UPC?"];
-var tab5_reponse = [["Video On Demand","Vertical On-board Delivery","Verification Of Deposit","Venous Occlusive Disease"]["Asymetric Digital Subscriber Line","Acceptable dry statement of Liberty","Alliance of the Dirty Soldier of Louisiana","Adventure of Discount Safari in Liberia"],["Application Programming Interface","Ancestor of Pig's Intelligence","Age of the People on Internet","Activity Place Internal"],["Business Support System","Basic Storeof Steak","Battlefield of Safety Sex","Basket Society Separation"],["Dynamic Random Access Memory","Design of the Rooftop of Archeological Museum","Day of Real Academy Disturb","Demonstration Regard Accessibily of Respect"],["HyperText Trasnfer Protocol","HealThy Tomato Plate","Hard Technological Technique Protocol","Hard Tempory Twilight Protocol"],["Interactive Mail Access Protocol","Interim Moment of Alert Process","Interupt Malware of Application Process","Intelligent Mainframe Application Peripheral"],["Cascading Style Sheet","Computer Science Song","Cookie Spyware Style","Computer Social Share"],["Local Area Network","Link Advanced on Nature","Log in A Newspaper","Light of Admirable Night"],["Personal Computer","Pretty Cow","Particular Climate","Pleasant Code"],["Solid State Driver","Super Super Dry","Super Softare of Drawing","Streaming of Special Driver"],["Universal Serial Bus","Unknown Safe Bug","Upload Service of Browser","Ultra Small Boobs"],["Virtual Private Networtk","Very Personnal News","Vast Personnal Number","Virus of the Perfect Number"],["Wi-Fi Protected Access","World Processor Accesibilty","Website of Protested Art","Webcam of Psychedelic Alcohol"],["World Wide Web","Wild White Weather","Welcome Waterfall Web","Warm Wrong Word"],["Uniform Resource Locator","Union of the Referant Learner","Upload References of Lights","Uncle Raymond Lights"],["Disk Operating System","Download Output System","Discovery of an Outstanding Serie","Different Organic Aliment"],["HyperText Markup Language","Honda Tiger Mailling List","Hear The Music Live","High-temparature Materials Laboratory"],["Light Emitting Diode","Liquid Emitting Diode"," Licence Expiry Date","Local Employment Dynamics"],["Video Graphics Array","Video Game Awards","Venus Gravity Assist","Variable Gain Amplifier"],["High Definiton Multimedia Interface","Hacking Displays Made Interesting","Hacking Displays Made Interesting","High-Definition Multimedia Interconnect"],["International Business Machine","International Brotherhood of Magicians","Immigration and Border Management","Integration Bus Message"],["Read Only Memory","Regional Oxidant Model","Regional Offender Manager","Range Of Movement"],["Floating-Point Operations Per Second","FLigh OPerationS","FLight OPtimization System","Frontal Lobe Personality Scale"],["Graphics Processing Unit","Gas Power Unit","Gas Piston Upper","Green Power Unity"],["High Definition","Hard Disk","Heavy Duty","Home Defence"],["Serial Advanced Technology Attachment","Serial Advanced Technology Architetcure","Scholastic Abilities Test for Adults","South American Tourism Association"],["Unicode Trandformation Format","Unsuccessful Tenderers Fee","UnTranslated French","Undead Task Force"],["Comma-Separated Values","Community Service Volunteers","Circuit Switched Voice","Cash Surrender Value"],["Advanced Micro Devices","Acid Mine Drainage","Active Matrix Display","AMerican Dream"],["American Standard Code for International Interchange","Australian Standard Coding for Information Interchange","American Standard Code of Information Institute","American Standard Code for Information Interch-ange"],["Audio Video Interleaved","Automatic Vehocle Identification","Audio Visual Interleve","Analog Video Interface"],["Compact Disk","Circular Detetcion","Cool Down","Donstruction Document"],["Global Positioning System","Gallons Per Sack","Gear Position Sensor","General Practuce Strategy"],["Universal Product Code","Ultra Physical Contact","Urine Protein Creatinine","Uniform Plumbing Code"]];
+var tab5_reponse = [["Video On Demand","Vertical On-board Delivery","Verification Of Deposit","Venous Occlusive Disease"],["Asymetric Digital Subscriber Line","Acceptable dry statement of Liberty","Alliance of the Dirty Soldier of Louisiana","Adventure of Discount Safari in Liberia"],["Application Programming Interface","Ancestor of Pig's Intelligence","Age of the People on Internet","Activity Place Internal"],["Business Support System","Basic Storeof Steak","Battlefield of Safety Sex","Basket Society Separation"],["Dynamic Random Access Memory","Design of the Rooftop of Archeological Museum","Day of Real Academy Disturb","Demonstration Regard Accessibily of Respect"],["HyperText Trasnfer Protocol","HealThy Tomato Plate","Hard Technological Technique Protocol","Hard Tempory Twilight Protocol"],["Interactive Mail Access Protocol","Interim Moment of Alert Process","Interupt Malware of Application Process","Intelligent Mainframe Application Peripheral"],["Cascading Style Sheet","Computer Science Song","Cookie Spyware Style","Computer Social Share"],["Local Area Network","Link Advanced on Nature","Log in A Newspaper","Light of Admirable Night"],["Personal Computer","Pretty Cow","Particular Climate","Pleasant Code"],["Solid State Driver","Super Super Dry","Super Softare of Drawing","Streaming of Special Driver"],["Universal Serial Bus","Unknown Safe Bug","Upload Service of Browser","Ultra Small Boobs"],["Virtual Private Networtk","Very Personnal News","Vast Personnal Number","Virus of the Perfect Number"],["Wi-Fi Protected Access","World Processor Accesibilty","Website of Protested Art","Webcam of Psychedelic Alcohol"],["World Wide Web","Wild White Weather","Welcome Waterfall Web","Warm Wrong Word"],["Uniform Resource Locator","Union of the Referant Learner","Upload References of Lights","Uncle Raymond Lights"],["Disk Operating System","Download Output System","Discovery of an Outstanding Serie","Different Organic Aliment"],["HyperText Markup Language","Honda Tiger Mailling List","Hear The Music Live","High-temparature Materials Laboratory"],["Light Emitting Diode","Liquid Emitting Diode"," Licence Expiry Date","Local Employment Dynamics"],["Video Graphics Array","Video Game Awards","Venus Gravity Assist","Variable Gain Amplifier"],["High Definiton Multimedia Interface","Hacking Displays Made Interesting","Hacking Displays Made Interesting","High-Definition Multimedia Interconnect"],["International Business Machine","International Brotherhood of Magicians","Immigration and Border Management","Integration Bus Message"],["Read Only Memory","Regional Oxidant Model","Regional Offender Manager","Range Of Movement"],["Floating-Point Operations Per Second","FLigh OPerationS","FLight OPtimization System","Frontal Lobe Personality Scale"],["Graphics Processing Unit","Gas Power Unit","Gas Piston Upper","Green Power Unity"],["High Definition","Hard Disk","Heavy Duty","Home Defence"],["Serial Advanced Technology Attachment","Serial Advanced Technology Architetcure","Scholastic Abilities Test for Adults","South American Tourism Association"],["Unicode Trandformation Format","Unsuccessful Tenderers Fee","UnTranslated French","Undead Task Force"],["Comma-Separated Values","Community Service Volunteers","Circuit Switched Voice","Cash Surrender Value"],["Advanced Micro Devices","Acid Mine Drainage","Active Matrix Display","AMerican Dream"],["American Standard Code for International Interchange","Australian Standard Coding for Information Interchange","American Standard Code of Information Institute","American Standard Code for Information Interch-ange"],["Audio Video Interleaved","Automatic Vehocle Identification","Audio Visual Interleve","Analog Video Interface"],["Compact Disk","Circular Detetcion","Cool Down","Donstruction Document"],["Global Positioning System","Gallons Per Sack","Gear Position Sensor","General Practuce Strategy"],["Universal Product Code","Ultra Physical Contact","Urine Protein Creatinine","Uniform Plumbing Code"]];
 var right_answer = 1;
 var joueur = [-1,-1,-1,-1];
 var creation_joueurs = document.getElementsByClassName("joueur");
@@ -120,8 +119,12 @@ function Fermer() {
 //verification();
 function verification()
 {
-    for(let i=0;i<tab1_question.length;i++)
-        document.write("Question : "+tab1_question[i]+" Réponse : "+tab1_reponse[i][0]+"<br>")
+    for(let i=0;i<tab5_question.length;i++)
+    {
+        document.write("Question : "+tab5_question[i]+" Réponse : "+tab5_reponse[i][0]+"<br>");
+    }
+    document.write("nothing")
+    console.log("image3 = "+document.getElementById("image3").src)
 }
 
 remplir_tableau();
@@ -229,7 +232,7 @@ function pose_question()
 {
     if(cest_parti == true)
     {
-        chiffre = alea(2,7);
+        chiffre = alea(1,7);
         if (chiffre == 6)
         {
             document.getElementById("de").style.display = "";
@@ -354,12 +357,13 @@ function affiche_question()
         num_ques = alea(0,(taille)-1);
         var question = 0;
         console.log("Le numéro de la question est " + num_ques);
-        document.getElementById("image2").src = tab1_question[num_ques];
-        console.log(document.getElementById("image2").src);
-        console.log(document.getElementById("image2").style.display);
-        document.getElementById("image2").style.display = "";
-        console.log(document.getElementById("image2").style.display);
-        document.getElementById("answer").textContent = tab1_proposition[num_ques];
+        console.log("src = "+document.getElementById("image3"));
+        document.getElementById("image3").src = tab1_question[num_ques];
+        console.log(document.getElementById("image3").src);
+        console.log(document.getElementById("image3").style.display);
+        document.getElementById("image3").style.display = "";
+        console.log(document.getElementById("image3").style.display);
+        document.getElementById("caseq").textContent = tab1_proposition[num_ques];
         console.log("Je suis à la fin du chiffre 1");
         /*var nouvelleImage = document.createElement("img");
         var att = document.createAttribute("src");
@@ -367,6 +371,28 @@ function affiche_question()
         nouvelleImage.setAttributeNode("att");
         console.log(document.getElementsByTagName("img")[6]);
         document.getElementById("caseq").appendChild(nouvelleImage);*/
+    }
+    else if (chiffre == 2)
+    {
+        document.getElementById("Show_me_question").style.display = "none";
+        document.getElementById("question").style.display = "";
+        document.getElementById("reponses").style.display = "none";
+        document.getElementById("answer").style.display = "";
+        var tab_question;
+        var taille = 0;
+        console.log("chiffre vaut "+chiffre);
+        tab_question = tab2_question;
+        taille = tab2_question.length;
+        console.log("La taille du tableau est "+taille);
+        //var taille = tab_question.length;
+        num_ques = alea(0,(taille)-1);
+        var question = 0;
+        console.log("Le numéro de la question est " + num_ques);
+        question = tab_question[num_ques];
+        document.getElementById("caseq").textContent = question;
+        if(document.getElementById("image3") == null)
+            document.write("Impossible de faire le thème 1");
+        affiche_reponses_square(chiffre, num_ques);
     }
     else
     {
@@ -380,12 +406,7 @@ function affiche_question()
         var tab_question;
         var taille = 0;
         console.log("chiffre vaut "+chiffre);
-        if (chiffre == 1)
-        {
-            tab_question = tab1_question;
-            taille = tab1_question.length;
-        }
-        else if (chiffre == 2)
+        if (chiffre == 2)
         {
             tab_question = tab2_question;
             taille = tab2_question.length;
@@ -417,6 +438,8 @@ function affiche_question()
         console.log("Le numéro de la question est " + num_ques);
         question = tab_question[num_ques];
         document.getElementById("caseq").textContent = question;
+        if(document.getElementById("image3") == null)
+            document.write("Impossible de faire le thème 1");
         //affiche_reponses_square(chiffre, num_ques);
     }
 }   
@@ -789,6 +812,7 @@ function question_suivante()
         theme[i].style.display = "";
     document.getElementById("lets_go").style.display = "";
     document.getElementById("answer").textContent = "Answer the following question :";
+    document.getElementById("image3").style.display = "none";
     duo = false;
 }
 
