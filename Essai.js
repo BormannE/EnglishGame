@@ -15,3 +15,11 @@ function PopupCentrer(page, largeur, hauteur, options) {
     var left=(screen.width-largeur);
     window.open(page,"","top="+top+",left="+left+",width="+largeur+",height="+hauteur+","+options);
   }
+
+var croix = document.getElementById("croix");
+croix.addEventListener("click",fermer);
+
+function fermer()
+{
+    windows.close();
+}
