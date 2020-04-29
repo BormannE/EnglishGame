@@ -229,7 +229,7 @@ function pose_question()
 {
     if(cest_parti == true)
     {
-        chiffre = alea(1,7);
+        chiffre = alea(2,7);
         if (chiffre == 6)
         {
             document.getElementById("de").style.display = "";
